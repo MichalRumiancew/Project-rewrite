@@ -29,9 +29,10 @@ for i in lista:
     # nas zmienne
     if i == 0:
         print("gratulacje znalazłeś 0 ")
+        break
     
     if najmniejsza == None or najmniejsza > i: 
-        najmniejsza = i
+        najmniejsza = abs(i)
         
     if najwieksza == None or najwieksza < i:
         najwieksza = i
