@@ -64,8 +64,8 @@ def cube():
 
 def print_hello_world():
     print("hello world :)")
-    print("hello world :)")
-
+    input("Press enter to continue") 
+    
 def sorting_numbers():
     number_of_numbers = input("Give a number of numbers: ")
     list_of_numbers = []

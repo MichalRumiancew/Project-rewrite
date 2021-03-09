@@ -12,7 +12,8 @@ def my_min(my_list):
             current_min = elem
 
     return current_min
-    
+
+
     
 
 min_from_1 = my_min(list_to_find_min)
