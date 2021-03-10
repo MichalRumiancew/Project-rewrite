@@ -18,6 +18,7 @@ print(list_of_temp)
 najmniejsza = None
 najwieksza = None
 najblizsza_zeru = None
+list2 = []
 for i in list_of_temp:
 
     if i == 0:
@@ -26,7 +27,10 @@ for i in list_of_temp:
 
     if najblizsza_zeru == None or 0 - abs(najblizsza_zeru) < 0 - abs(i):
         najblizsza_zeru = abs(i)
-
+        if najblizsza_zeru == i:
+            list2.append(i)
+    print(list2)
+        
     if najmniejsza == None or najmniejsza > i:
         najmniejsza = i
 
